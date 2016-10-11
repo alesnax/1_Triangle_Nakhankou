@@ -1,0 +1,70 @@
+2016-10-11 11:24:49 [main] ERROR by.alesnax.triangle.parser.TriangleParser  line:56 - Wrong data in file, java.lang.NumberFormatException: For input string: "a"
+2016-10-11 11:24:49 [main] ERROR by.alesnax.triangle.parser.TriangleParser  line:34 - Wrong number of parameters in line!
+2016-10-11 11:24:49 [main] WARN  by.alesnax.triangle.parser.TriangleParser  line:77 - Points lie on the same line in Triangle{pointA=Point{x=0.0, y=0.0}, pointB=Point{x=0.0, y=5.0}, pointC=Point{x=0.0, y=7.0}}
+2016-10-11 11:24:49 [main] WARN  by.alesnax.triangle.parser.TriangleParser  line:77 - Points lie on the same line in Triangle{pointA=Point{x=0.0, y=5.0}, pointB=Point{x=0.0, y=0.0}, pointC=Point{x=0.0, y=0.0}}
+2016-10-11 11:24:49 [main] INFO  by.alesnax.triangle.parser.TriangleParser  line:45 - 5 triangles created, 4 has wrong input data!
+2016-10-11 11:24:49 [main] INFO  by.alesnax.triangle.main.ReportResult  line:26 - Triangle{pointA=Point{x=5.0, y=3.0}, pointB=Point{x=3.0, y=-1.0}, pointC=Point{x=-7.0, y=3.0}} has area: 24.00000000000001, perimeter: 27.24246556926859
+2016-10-11 11:24:49 [main] INFO  by.alesnax.triangle.main.ReportResult  line:26 - Triangle{pointA=Point{x=1.0, y=-1.0}, pointB=Point{x=2.0, y=6.0}, pointC=Point{x=-3.0, y=-7.0}} has area: 11.000000000000016, perimeter: 28.210558639977574
+2016-10-11 11:24:49 [main] INFO  by.alesnax.triangle.main.ReportResult  line:26 - Triangle{pointA=Point{x=1.4, y=4.2}, pointB=Point{x=2.6, y=-4.5}, pointC=Point{x=3.6, y=6.1356365}} has area: 10.731381899999997, perimeter: 22.39521873385862
+2016-10-11 11:24:49 [main] INFO  by.alesnax.triangle.main.ReportResult  line:26 - Triangle{pointA=Point{x=1.4, y=2.5}, pointB=Point{x=4.2, y=2.0}, pointC=Point{x=5.0, y=2.0}} has area: 0.2000000000000081, perimeter: 7.278848899742828
+2016-10-11 11:24:49 [main] INFO  by.alesnax.triangle.main.ReportResult  line:26 - Triangle{pointA=Point{x=0.0, y=0.0}, pointB=Point{x=0.0, y=3.0}, pointC=Point{x=4.0, y=0.0}} has area: 6.0, perimeter: 12.0
+2016-10-11 12:55:24 [main] ERROR by.alesnax.triangle.parser.TriangleParser  line:56 - Wrong data in file, java.lang.NumberFormatException: For input string: "a"
+2016-10-11 12:55:24 [main] ERROR by.alesnax.triangle.parser.TriangleParser  line:34 - Wrong number of parameters in line!
+2016-10-11 12:55:24 [main] WARN  by.alesnax.triangle.parser.TriangleParser  line:77 - Points lie on the same line in Triangle{pointA=Point{x=0.0, y=0.0}, pointB=Point{x=0.0, y=5.0}, pointC=Point{x=0.0, y=7.0}}
+2016-10-11 12:55:24 [main] WARN  by.alesnax.triangle.parser.TriangleParser  line:77 - Points lie on the same line in Triangle{pointA=Point{x=0.0, y=5.0}, pointB=Point{x=0.0, y=0.0}, pointC=Point{x=0.0, y=0.0}}
+2016-10-11 12:55:24 [main] INFO  by.alesnax.triangle.parser.TriangleParser  line:45 - 5 triangles created, 4 has wrong input data!
+2016-10-11 12:55:24 [main] INFO  by.alesnax.triangle.main.ReportResult  line:26 - Triangle{pointA=Point{x=5.0, y=3.0}, pointB=Point{x=3.0, y=-1.0}, pointC=Point{x=-7.0, y=3.0}} has area: 24.00000000000001, perimeter: 27.24246556926859
+2016-10-11 12:55:24 [main] INFO  by.alesnax.triangle.main.ReportResult  line:26 - Triangle{pointA=Point{x=1.0, y=-1.0}, pointB=Point{x=2.0, y=6.0}, pointC=Point{x=-3.0, y=-7.0}} has area: 11.000000000000016, perimeter: 28.210558639977574
+2016-10-11 12:55:24 [main] INFO  by.alesnax.triangle.main.ReportResult  line:26 - Triangle{pointA=Point{x=1.4, y=4.2}, pointB=Point{x=2.6, y=-4.5}, pointC=Point{x=3.6, y=6.1356365}} has area: 10.731381899999997, perimeter: 22.39521873385862
+2016-10-11 12:55:24 [main] INFO  by.alesnax.triangle.main.ReportResult  line:26 - Triangle{pointA=Point{x=1.4, y=2.5}, pointB=Point{x=4.2, y=2.0}, pointC=Point{x=5.0, y=2.0}} has area: 0.2000000000000081, perimeter: 7.278848899742828
+2016-10-11 12:55:24 [main] INFO  by.alesnax.triangle.main.ReportResult  line:26 - Triangle{pointA=Point{x=0.0, y=0.0}, pointB=Point{x=0.0, y=3.0}, pointC=Point{x=4.0, y=0.0}} has area: 6.0, perimeter: 12.0
+2016-10-11 12:55:26 [main] ERROR by.alesnax.triangle.parser.TriangleParser  line:56 - Wrong data in file, java.lang.NumberFormatException: For input string: "a"
+2016-10-11 12:55:26 [main] ERROR by.alesnax.triangle.parser.TriangleParser  line:34 - Wrong number of parameters in line!
+2016-10-11 12:55:26 [main] WARN  by.alesnax.triangle.parser.TriangleParser  line:77 - Points lie on the same line in Triangle{pointA=Point{x=0.0, y=0.0}, pointB=Point{x=0.0, y=5.0}, pointC=Point{x=0.0, y=7.0}}
+2016-10-11 12:55:26 [main] WARN  by.alesnax.triangle.parser.TriangleParser  line:77 - Points lie on the same line in Triangle{pointA=Point{x=0.0, y=5.0}, pointB=Point{x=0.0, y=0.0}, pointC=Point{x=0.0, y=0.0}}
+2016-10-11 12:55:26 [main] INFO  by.alesnax.triangle.parser.TriangleParser  line:45 - 5 triangles created, 4 has wrong input data!
+2016-10-11 12:55:26 [main] INFO  by.alesnax.triangle.main.ReportResult  line:26 - Triangle{pointA=Point{x=5.0, y=3.0}, pointB=Point{x=3.0, y=-1.0}, pointC=Point{x=-7.0, y=3.0}} has area: 24.00000000000001, perimeter: 27.24246556926859
+2016-10-11 12:55:26 [main] INFO  by.alesnax.triangle.main.ReportResult  line:26 - Triangle{pointA=Point{x=1.0, y=-1.0}, pointB=Point{x=2.0, y=6.0}, pointC=Point{x=-3.0, y=-7.0}} has area: 11.000000000000016, perimeter: 28.210558639977574
+2016-10-11 12:55:26 [main] INFO  by.alesnax.triangle.main.ReportResult  line:26 - Triangle{pointA=Point{x=1.4, y=4.2}, pointB=Point{x=2.6, y=-4.5}, pointC=Point{x=3.6, y=6.1356365}} has area: 10.731381899999997, perimeter: 22.39521873385862
+2016-10-11 12:55:26 [main] INFO  by.alesnax.triangle.main.ReportResult  line:26 - Triangle{pointA=Point{x=1.4, y=2.5}, pointB=Point{x=4.2, y=2.0}, pointC=Point{x=5.0, y=2.0}} has area: 0.2000000000000081, perimeter: 7.278848899742828
+2016-10-11 12:55:26 [main] INFO  by.alesnax.triangle.main.ReportResult  line:26 - Triangle{pointA=Point{x=0.0, y=0.0}, pointB=Point{x=0.0, y=3.0}, pointC=Point{x=4.0, y=0.0}} has area: 6.0, perimeter: 12.0
+2016-10-11 13:19:03 [main] ERROR by.alesnax.triangle.parser.TriangleParser  line:56 - Wrong data in file, java.lang.NumberFormatException: For input string: "a"
+2016-10-11 13:19:03 [main] ERROR by.alesnax.triangle.parser.TriangleParser  line:34 - Wrong number of parameters in line!
+2016-10-11 13:19:03 [main] WARN  by.alesnax.triangle.parser.TriangleParser  line:77 - Points lie on the same line in Triangle{pointA=Point{x=0.0, y=0.0}, pointB=Point{x=0.0, y=5.0}, pointC=Point{x=0.0, y=7.0}}
+2016-10-11 13:19:03 [main] WARN  by.alesnax.triangle.parser.TriangleParser  line:77 - Points lie on the same line in Triangle{pointA=Point{x=0.0, y=5.0}, pointB=Point{x=0.0, y=0.0}, pointC=Point{x=0.0, y=0.0}}
+2016-10-11 13:19:03 [main] INFO  by.alesnax.triangle.parser.TriangleParser  line:45 - 5 triangles created, 4 has wrong input data!
+2016-10-11 13:19:03 [main] INFO  by.alesnax.triangle.main.ReportResult  line:26 - Triangle{pointA=Point{x=5.0, y=3.0}, pointB=Point{x=3.0, y=-1.0}, pointC=Point{x=-7.0, y=3.0}} has area: 24.00000000000001, perimeter: 27.24246556926859
+2016-10-11 13:19:03 [main] INFO  by.alesnax.triangle.main.ReportResult  line:26 - Triangle{pointA=Point{x=1.0, y=-1.0}, pointB=Point{x=2.0, y=6.0}, pointC=Point{x=-3.0, y=-7.0}} has area: 11.000000000000016, perimeter: 28.210558639977574
+2016-10-11 13:19:03 [main] INFO  by.alesnax.triangle.main.ReportResult  line:26 - Triangle{pointA=Point{x=1.4, y=4.2}, pointB=Point{x=2.6, y=-4.5}, pointC=Point{x=3.6, y=6.1356365}} has area: 10.731381899999997, perimeter: 22.39521873385862
+2016-10-11 13:19:03 [main] INFO  by.alesnax.triangle.main.ReportResult  line:26 - Triangle{pointA=Point{x=1.4, y=2.5}, pointB=Point{x=4.2, y=2.0}, pointC=Point{x=5.0, y=2.0}} has area: 0.2000000000000081, perimeter: 7.278848899742828
+2016-10-11 13:19:03 [main] INFO  by.alesnax.triangle.main.ReportResult  line:26 - Triangle{pointA=Point{x=0.0, y=0.0}, pointB=Point{x=0.0, y=3.0}, pointC=Point{x=4.0, y=0.0}} has area: 6.0, perimeter: 12.0
+2016-10-11 13:19:46 [main] ERROR by.alesnax.triangle.parser.TriangleParser  line:56 - Wrong data in file, java.lang.NumberFormatException: For input string: "a"
+2016-10-11 13:19:46 [main] ERROR by.alesnax.triangle.parser.TriangleParser  line:34 - Wrong number of parameters in line!
+2016-10-11 13:19:46 [main] WARN  by.alesnax.triangle.parser.TriangleParser  line:77 - Points lie on the same line in Triangle{pointA=Point{x=0.0, y=0.0}, pointB=Point{x=0.0, y=5.0}, pointC=Point{x=0.0, y=7.0}}
+2016-10-11 13:19:46 [main] WARN  by.alesnax.triangle.parser.TriangleParser  line:77 - Points lie on the same line in Triangle{pointA=Point{x=0.0, y=5.0}, pointB=Point{x=0.0, y=0.0}, pointC=Point{x=0.0, y=0.0}}
+2016-10-11 13:19:46 [main] INFO  by.alesnax.triangle.parser.TriangleParser  line:45 - 5 triangles created, 4 has wrong input data!
+2016-10-11 13:19:46 [main] INFO  by.alesnax.triangle.main.ReportResult  line:26 - Triangle{pointA=Point{x=5.0, y=3.0}, pointB=Point{x=3.0, y=-1.0}, pointC=Point{x=-7.0, y=3.0}} has area: 24.00000000000001, perimeter: 27.24246556926859
+2016-10-11 13:19:46 [main] INFO  by.alesnax.triangle.main.ReportResult  line:26 - Triangle{pointA=Point{x=1.0, y=-1.0}, pointB=Point{x=2.0, y=6.0}, pointC=Point{x=-3.0, y=-7.0}} has area: 11.000000000000016, perimeter: 28.210558639977574
+2016-10-11 13:19:46 [main] INFO  by.alesnax.triangle.main.ReportResult  line:26 - Triangle{pointA=Point{x=1.4, y=4.2}, pointB=Point{x=2.6, y=-4.5}, pointC=Point{x=3.6, y=6.1356365}} has area: 10.731381899999997, perimeter: 22.39521873385862
+2016-10-11 13:19:46 [main] INFO  by.alesnax.triangle.main.ReportResult  line:26 - Triangle{pointA=Point{x=1.4, y=2.5}, pointB=Point{x=4.2, y=2.0}, pointC=Point{x=5.0, y=2.0}} has area: 0.2000000000000081, perimeter: 7.278848899742828
+2016-10-11 13:19:46 [main] INFO  by.alesnax.triangle.main.ReportResult  line:26 - Triangle{pointA=Point{x=0.0, y=0.0}, pointB=Point{x=0.0, y=3.0}, pointC=Point{x=4.0, y=0.0}} has area: 6.0, perimeter: 12.0
+2016-10-11 13:36:06 [main] ERROR by.alesnax.triangle.parser.TriangleParser  line:56 - Wrong data in file, java.lang.NumberFormatException: For input string: "a"
+2016-10-11 13:36:06 [main] ERROR by.alesnax.triangle.parser.TriangleParser  line:34 - Wrong number of parameters in line!
+2016-10-11 13:36:06 [main] WARN  by.alesnax.triangle.parser.TriangleParser  line:77 - Points lie on the same line in Triangle{pointA=Point{x=0.0, y=0.0}, pointB=Point{x=0.0, y=5.0}, pointC=Point{x=0.0, y=7.0}}
+2016-10-11 13:36:06 [main] WARN  by.alesnax.triangle.parser.TriangleParser  line:77 - Points lie on the same line in Triangle{pointA=Point{x=0.0, y=5.0}, pointB=Point{x=0.0, y=0.0}, pointC=Point{x=0.0, y=0.0}}
+2016-10-11 13:36:06 [main] INFO  by.alesnax.triangle.parser.TriangleParser  line:45 - 5 triangles created, 4 has wrong input data!
+2016-10-11 13:36:06 [main] INFO  by.alesnax.triangle.main.ReportResult  line:26 - Triangle{pointA=Point{x=5.0, y=3.0}, pointB=Point{x=3.0, y=-1.0}, pointC=Point{x=-7.0, y=3.0}} has area: 24.00000000000001, perimeter: 27.24246556926859
+2016-10-11 13:36:06 [main] INFO  by.alesnax.triangle.main.ReportResult  line:26 - Triangle{pointA=Point{x=1.0, y=-1.0}, pointB=Point{x=2.0, y=6.0}, pointC=Point{x=-3.0, y=-7.0}} has area: 11.000000000000016, perimeter: 28.210558639977574
+2016-10-11 13:36:06 [main] INFO  by.alesnax.triangle.main.ReportResult  line:26 - Triangle{pointA=Point{x=1.4, y=4.2}, pointB=Point{x=2.6, y=-4.5}, pointC=Point{x=3.6, y=6.1356365}} has area: 10.731381899999997, perimeter: 22.39521873385862
+2016-10-11 13:36:06 [main] INFO  by.alesnax.triangle.main.ReportResult  line:26 - Triangle{pointA=Point{x=1.4, y=2.5}, pointB=Point{x=4.2, y=2.0}, pointC=Point{x=5.0, y=2.0}} has area: 0.2000000000000081, perimeter: 7.278848899742828
+2016-10-11 13:36:06 [main] INFO  by.alesnax.triangle.main.ReportResult  line:26 - Triangle{pointA=Point{x=0.0, y=0.0}, pointB=Point{x=0.0, y=3.0}, pointC=Point{x=4.0, y=0.0}} has area: 6.0, perimeter: 12.0
+2016-10-11 13:36:13 [main] ERROR by.alesnax.triangle.parser.TriangleParser  line:56 - Wrong data in file, java.lang.NumberFormatException: For input string: "a"
+2016-10-11 13:36:13 [main] ERROR by.alesnax.triangle.parser.TriangleParser  line:34 - Wrong number of parameters in line!
+2016-10-11 13:36:13 [main] WARN  by.alesnax.triangle.parser.TriangleParser  line:77 - Points lie on the same line in Triangle{pointA=Point{x=0.0, y=0.0}, pointB=Point{x=0.0, y=5.0}, pointC=Point{x=0.0, y=7.0}}
+2016-10-11 13:36:13 [main] WARN  by.alesnax.triangle.parser.TriangleParser  line:77 - Points lie on the same line in Triangle{pointA=Point{x=0.0, y=5.0}, pointB=Point{x=0.0, y=0.0}, pointC=Point{x=0.0, y=0.0}}
+2016-10-11 13:36:13 [main] INFO  by.alesnax.triangle.parser.TriangleParser  line:45 - 5 triangles created, 4 has wrong input data!
+2016-10-11 13:36:13 [main] INFO  by.alesnax.triangle.main.ReportResult  line:26 - Triangle{pointA=Point{x=5.0, y=3.0}, pointB=Point{x=3.0, y=-1.0}, pointC=Point{x=-7.0, y=3.0}} has area: 24.00000000000001, perimeter: 27.24246556926859
+2016-10-11 13:36:13 [main] INFO  by.alesnax.triangle.main.ReportResult  line:26 - Triangle{pointA=Point{x=1.0, y=-1.0}, pointB=Point{x=2.0, y=6.0}, pointC=Point{x=-3.0, y=-7.0}} has area: 11.000000000000016, perimeter: 28.210558639977574
+2016-10-11 13:36:13 [main] INFO  by.alesnax.triangle.main.ReportResult  line:26 - Triangle{pointA=Point{x=1.4, y=4.2}, pointB=Point{x=2.6, y=-4.5}, pointC=Point{x=3.6, y=6.1356365}} has area: 10.731381899999997, perimeter: 22.39521873385862
+2016-10-11 13:36:13 [main] INFO  by.alesnax.triangle.main.ReportResult  line:26 - Triangle{pointA=Point{x=1.4, y=2.5}, pointB=Point{x=4.2, y=2.0}, pointC=Point{x=5.0, y=2.0}} has area: 0.2000000000000081, perimeter: 7.278848899742828
+2016-10-11 13:36:13 [main] INFO  by.alesnax.triangle.main.ReportResult  line:26 - Triangle{pointA=Point{x=0.0, y=0.0}, pointB=Point{x=0.0, y=3.0}, pointC=Point{x=4.0, y=0.0}} has area: 6.0, perimeter: 12.0
