@@ -1,0 +1,3 @@
+Airliner 312A Boeing-747  3 10000   150 5000
+CargoAirplane 535C AN-2 7 25000   40000
+SpecialPlane F007 TU-123 4 8000    25000 firefighter
