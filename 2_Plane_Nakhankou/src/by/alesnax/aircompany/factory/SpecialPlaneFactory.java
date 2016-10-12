@@ -15,7 +15,7 @@ public class SpecialPlaneFactory extends AbstractPlaneFactory {
 
 
     @Override
-    SpecialPlane createPlane(String[] info) {
+    public SpecialPlane createPlane(String[] info) {
         if(info.length ==FIELD_NUM) {
         SpecialPlaneParser parser = new SpecialPlaneParser();
         String[] correctInfo = parser.parsePlane(info);

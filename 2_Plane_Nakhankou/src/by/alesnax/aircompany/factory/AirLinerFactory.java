@@ -14,7 +14,7 @@ public class AirLinerFactory extends AbstractPlaneFactory {
     private static final int FIELD_NUM = 7;
 
     @Override
-    Airliner createPlane(String[] info) {
+    public Airliner createPlane(String[] info) {
 
         if (info.length == FIELD_NUM) {
             AirLinerParser parser = new AirLinerParser();

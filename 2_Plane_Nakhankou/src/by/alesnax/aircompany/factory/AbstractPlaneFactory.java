@@ -7,5 +7,5 @@ import by.alesnax.aircompany.entity.Plane;
  */
 public abstract class AbstractPlaneFactory {
 
-     abstract Plane createPlane(String[] info);
+     public abstract Plane createPlane(String[] info);
 }

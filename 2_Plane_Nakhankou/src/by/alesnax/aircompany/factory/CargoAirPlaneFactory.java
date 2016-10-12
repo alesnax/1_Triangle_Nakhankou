@@ -14,7 +14,7 @@ public class CargoAirPlaneFactory extends AbstractPlaneFactory {
     private static final int FIELD_NUM = 6;
 
     @Override
-    CargoAirplane createPlane(String[] info) {
+    public CargoAirplane createPlane(String[] info) {
         if(info.length ==FIELD_NUM) {
             CargoAirplaneParser parser = new CargoAirplaneParser();
             String[] correctInfo = parser.parsePlane(info);

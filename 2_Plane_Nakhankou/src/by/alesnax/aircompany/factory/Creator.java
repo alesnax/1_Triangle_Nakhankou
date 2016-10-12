@@ -1,11 +1,13 @@
 package by.alesnax.aircompany.factory;
 
+import by.alesnax.aircompany.constant.Constants;
 import by.alesnax.aircompany.entity.Plane;
 import by.alesnax.aircompany.entity.TypePlane;
 import by.alesnax.aircompany.input.AircraftReader;
 import org.apache.logging.log4j.Level;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+
 
 
 import java.util.ArrayList;
@@ -16,7 +18,7 @@ import java.util.ArrayList;
 public class Creator {
 
     private static Logger logger = LogManager.getLogger(Creator.class);
-    private static final String PATTERN_SPLIT_INFO = "[ ,;]+";
+
 
     public ArrayList<Plane> createAirCraft(String fileName) {
         AircraftReader reader = new AircraftReader();
@@ -28,7 +30,7 @@ public class Creator {
         AbstractPlaneFactory specialPlaneFactory = new SpecialPlaneFactory();
 
         for (String line : inputData) {
-            String[] info = line.trim().split(PATTERN_SPLIT_INFO);
+            String[] info = line.trim().split(Constants.PATTERN_SPLIT_INFO);
             TypePlane type = TypePlane.valueOf(info[0].toUpperCase());
             Plane plane = null;
             switch (type) {
