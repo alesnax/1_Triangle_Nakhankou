@@ -27,6 +27,10 @@ public class AircraftReader {
         } catch (FileNotFoundException e) {
             logger.log(Level.FATAL, "NotFoundFileError ", e);
             throw new RuntimeException("Fatal Error", e.getCause());
+        }finally{
+            if(scanner != null){
+                scanner.close();
+            }
         }
 
         while (scanner.hasNextLine()) {
