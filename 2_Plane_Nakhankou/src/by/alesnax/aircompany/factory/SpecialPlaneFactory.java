@@ -13,7 +13,6 @@ public class SpecialPlaneFactory extends AbstractPlaneFactory {
     private static Logger logger = LogManager.getLogger(SpecialPlaneFactory.class);
     private static final int FIELD_NUM = 7;
 
-
     @Override
     public SpecialPlane createPlane(String[] info) {
         if(info.length ==FIELD_NUM) {

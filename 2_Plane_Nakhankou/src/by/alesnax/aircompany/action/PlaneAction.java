@@ -12,7 +12,6 @@ import java.util.Collections;
  */
 public class PlaneAction {
 
-
     public static int defineTotalPassengersOnBoard(AirCompany company){
         ArrayList<Plane> airCraft = company.getAirCraft();
         int pass = 0;

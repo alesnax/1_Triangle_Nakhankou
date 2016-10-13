@@ -7,6 +7,7 @@ import org.apache.logging.log4j.Logger;
 /**
  * Created by alesnax on 09.10.2016.
  */
+
 public abstract class PlaneParser implements IParsePlane, ICheckable {
     private static Logger logger = LogManager.getLogger(PlaneParser.class);
 

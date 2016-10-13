@@ -12,6 +12,7 @@ import java.util.Scanner;
 /**
  * Created by alesnax on 09.10.2016.
  */
+
 public class AircraftReader {
 
     private static Logger logger = LogManager.getLogger(AircraftReader.class);

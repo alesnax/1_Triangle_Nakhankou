@@ -11,7 +11,6 @@ import org.apache.logging.log4j.Logger;
 public class AirLinerParser extends PlaneParser{
     private static Logger logger = LogManager.getLogger(AirLinerParser.class);
 
-
     private static final String DEFAULT_SEATS_NUM = "20";
     private static final int MIN_SEATS_NUM = 1;
     private static final int MAX_SEATS_NUM = 500;
