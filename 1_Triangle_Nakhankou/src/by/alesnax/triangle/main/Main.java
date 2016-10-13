@@ -6,7 +6,6 @@ import by.alesnax.triangle.entity.Triangle;
 
 import java.util.ArrayList;
 
-
 /**
  * Created by alesnax on 05.10.2016.
  */

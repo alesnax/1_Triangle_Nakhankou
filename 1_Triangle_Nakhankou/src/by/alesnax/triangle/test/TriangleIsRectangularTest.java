@@ -10,7 +10,6 @@ import org.junit.Test;
 /**
  * Created by alesnax on 05.10.2016.
  */
-
 public class TriangleIsRectangularTest {
 
     @Test

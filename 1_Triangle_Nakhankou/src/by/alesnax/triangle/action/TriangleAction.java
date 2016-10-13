@@ -4,7 +4,6 @@ package by.alesnax.triangle.action;
 import by.alesnax.triangle.entity.Triangle;
 import java.util.Arrays;
 
-
 /**
  * Created by alesnax on 05.10.2016.
  */

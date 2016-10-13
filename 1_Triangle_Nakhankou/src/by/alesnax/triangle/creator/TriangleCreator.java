@@ -8,20 +8,19 @@ import org.apache.logging.log4j.Logger;
 
 import java.util.ArrayList;
 
-
 /**
  * Created by alesnax on 05.10.2016.
  */
 public class TriangleCreator {
 
     private static Logger logger = LogManager.getLogger(TriangleCreator.class);
-
+    private static final String TXT_EXT = ".txt";
 
     public ArrayList<Triangle> createTriangleList(String fileName){
         TriangleParser parser = new TriangleParser();
         ArrayList<Triangle> triangleList = null;
 
-        if(fileName.endsWith(".txt")){
+        if(fileName.endsWith(TXT_EXT)){
             triangleList = parser.parseTxtData(fileName);
         }else{
             logger.log(Level.ERROR, "No parsers for such type!");

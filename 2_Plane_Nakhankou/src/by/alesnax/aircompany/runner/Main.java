@@ -23,5 +23,6 @@ public class Main {
         ReportResult.printPlanesByFuelConsumption(belavia, 2, 8);
         ReportResult.printCompanyAirCraftSortByDistance(belavia);
 
+
     }
 }

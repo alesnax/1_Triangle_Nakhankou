@@ -8,7 +8,6 @@ import org.apache.logging.log4j.Logger;
 
 import java.util.ArrayList;
 
-
 /**
  * Created by alesnax on 11.10.2016.
  */

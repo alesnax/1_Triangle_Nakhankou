@@ -9,7 +9,6 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 
-
 /**
  * Created by alesnax on 05.10.2016.
  */
@@ -30,6 +29,10 @@ public class TriangleInputReader {
         } catch (FileNotFoundException e) {
             logger.log(Level.FATAL, "NotFoundFileError ", e);
             throw new RuntimeException("Fatal Error", e.getCause());
+        }finally {
+            if(scanner != null){
+                scanner.close();
+            }
         }
         return data;
     }

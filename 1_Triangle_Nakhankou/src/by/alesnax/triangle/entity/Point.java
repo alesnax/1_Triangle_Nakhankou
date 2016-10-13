@@ -3,7 +3,6 @@ package by.alesnax.triangle.entity;
 /**
  * Created by alesnax on 05.10.2016.
  */
-
 public class Point {
 
     private double x;

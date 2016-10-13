@@ -52,16 +52,13 @@ public class TriangleParser {
         for (int i = 0; i < points.length; i++) {
             try {
                 double num = Double.parseDouble(points[i]);
+                checked = true;
             } catch (NumberFormatException e) {
                 logger.log(Level.ERROR, "Wrong data in file, " + e);
-                return checked;
             }
         }
-        checked = true;
         return checked;
     }
-
-
 
     // method checkIfPointsNotInLine is public to be called from test class
 
