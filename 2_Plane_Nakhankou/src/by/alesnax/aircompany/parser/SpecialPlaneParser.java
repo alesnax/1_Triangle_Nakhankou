@@ -33,9 +33,8 @@ public class SpecialPlaneParser extends PlaneParser{
             return (weight > MIN_USEFUL_WEIGHT) ? usefulWeight : DEFAULT_USEFUL_WEIGHT;
         }catch (NumberFormatException e){
             logger.log(Level.WARN, "Wrong useful weight, please check! Default weight " + DEFAULT_USEFUL_WEIGHT + "  was set in aircompany: " + info[0] + " " + info[1] + " " + info[2]);
-            return DEFAULT_USEFUL_WEIGHT;
         }
-
+        return DEFAULT_USEFUL_WEIGHT;
     }
 
     private String checkType(String[] info){
@@ -44,7 +43,9 @@ public class SpecialPlaneParser extends PlaneParser{
             SpecialPlane.TypeUse checkedType = SpecialPlane.TypeUse.valueOf(type.toUpperCase());
             return checkedType.toString();
         }catch (EnumConstantNotPresentException e){
-            return SpecialPlane.TypeUse.OTHER.toString();
+            logger.log(Level.WARN, "Wrong specialPlane type, please check! Default type " + SpecialPlane.TypeUse.OTHER.toString()
+                    + "  was set in aircompany: " + info[0] + " " + info[1] + " " + info[2]);
         }
+        return SpecialPlane.TypeUse.OTHER.toString();
     }
 }

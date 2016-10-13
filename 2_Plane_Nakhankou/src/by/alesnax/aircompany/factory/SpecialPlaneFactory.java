@@ -30,7 +30,7 @@ public class SpecialPlaneFactory extends AbstractPlaneFactory {
         return new SpecialPlane(id, model, fuelConsumption, fuelTank, usefulWeight, type);
         }else{
             logger.log(Level.ERROR, "Wrong number of parameters in line with info: " + info[0] + " " + info[1] + " " + info[2]);
-            return null;
         }
+        return null;
     }
 }

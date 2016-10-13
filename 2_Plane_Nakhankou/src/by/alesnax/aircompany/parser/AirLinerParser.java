@@ -41,10 +41,10 @@ public class AirLinerParser extends PlaneParser{
             return (passNum > MIN_SEATS_NUM && passNum < MAX_SEATS_NUM ) ? pass : DEFAULT_SEATS_NUM;
         }catch (NumberFormatException e){
             logger.log(Level.WARN, "Wrong number of passengers, please check! Default number " + DEFAULT_SEATS_NUM + "  was set in aircompany: " + info[0] + " " + info[1] + " " + info[2]);
-            return DEFAULT_SEATS_NUM;
         }
-
+        return DEFAULT_SEATS_NUM;
     }
+
     private String checkLuggageWeight(String[] info){
         String luggageWeight = info[6];
         try {
@@ -52,9 +52,8 @@ public class AirLinerParser extends PlaneParser{
             return (weight > MIN_LUGGAGE_WEIGHT) ? luggageWeight : DEFAULT_LUGGAGE_WEIGHT;
         }catch (NumberFormatException e){
             logger.log(Level.WARN, "Wrong luggage weight, please check! Default weight " + DEFAULT_LUGGAGE_WEIGHT + "  was set in aircompany: " + info[0] + " " + info[1] + " " + info[2]);
-            return DEFAULT_LUGGAGE_WEIGHT;
         }
-
+        return DEFAULT_LUGGAGE_WEIGHT;
     }
 
 }

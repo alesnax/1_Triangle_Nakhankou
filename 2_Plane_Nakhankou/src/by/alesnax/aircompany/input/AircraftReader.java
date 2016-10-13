@@ -24,25 +24,26 @@ public class AircraftReader {
 
         try {
             scanner = new Scanner(new File(fileName));
+
+            while (scanner.hasNextLine()) {
+                plane = scanner.nextLine().trim();
+                String[] info = plane.split(DELIMETER);
+                switch (info[0].toUpperCase()){
+                    case "AIRLINER":
+                    case "CARGOAIRPLANE":
+                    case "SPECIALPLANE":
+                        result.add(plane);
+                        break;
+                    default: logger.log(Level.ERROR, "Wrong data in line, cannot parse it!");
+                }
+            }
+
         } catch (FileNotFoundException e) {
             logger.log(Level.FATAL, "NotFoundFileError ", e);
             throw new RuntimeException("Fatal Error", e.getCause());
         }finally{
             if(scanner != null){
                 scanner.close();
-            }
-        }
-
-        while (scanner.hasNextLine()) {
-            plane = scanner.nextLine().trim();
-            String[] info = plane.split(DELIMETER);
-            switch (info[0].toUpperCase()){
-                case "AIRLINER":
-                case "CARGOAIRPLANE":
-                case "SPECIALPLANE":
-                    result.add(plane);
-                    break;
-                default: logger.log(Level.ERROR, "Wrong data in line, cannot parse it!");
             }
         }
         return result;

@@ -32,8 +32,7 @@ public class CargoAirplaneParser extends PlaneParser {
             return (weight > MIN_CARGO_WEIGHT) ? luggageWeight : DEFAULT_CARGO_WEIGHT;
         }catch (NumberFormatException e){
             logger.log(Level.WARN, "Wrong cargo weight, please check! Default weight " + DEFAULT_CARGO_WEIGHT + "  was set in aircompany: " + info[0] + " " + info[1] + " " + info[2]);
-            return DEFAULT_CARGO_WEIGHT;
         }
-
+        return DEFAULT_CARGO_WEIGHT;
     }
 }

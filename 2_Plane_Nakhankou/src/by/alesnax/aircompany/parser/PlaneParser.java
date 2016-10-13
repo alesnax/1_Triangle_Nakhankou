@@ -31,8 +31,8 @@ public abstract class PlaneParser implements IParsePlane, ICheckable {
             return id;
         }else{
             logger.log(Level.WARN, "Warn! check id, aircompany: " + info[0] + " " + info[1] + " " + info[2]);
-            return id + CHECK_WARN;
         }
+        return id + CHECK_WARN;
     }
 
     public String checkModel(String[] info){
@@ -41,8 +41,8 @@ public abstract class PlaneParser implements IParsePlane, ICheckable {
             return model;
         }else{
             logger.log(Level.WARN, "Warn! check model, aircompany: " + info[0] + " " + info[1] + " " + info[2]);
-            return model + CHECK_WARN;
         }
+        return model + CHECK_WARN;
     }
 
     public String checkFuelConsumtion(String[] info){
@@ -52,10 +52,10 @@ public abstract class PlaneParser implements IParsePlane, ICheckable {
             return (cons > MIN_CONSUMPTION && cons < MAX_CONSUMPTION ) ? fuelConsumption : DEFAULT_FUEL_CONSUMPTION;
         }catch (NumberFormatException e){
             logger.log(Level.WARN, "Wrong fuelConsumption, please check! Default consumption " + DEFAULT_FUEL_CONSUMPTION + " kg/km was set in aircompany: " + info[0] + " " + info[1] + " " + info[2]);
-            return DEFAULT_FUEL_CONSUMPTION;
         }
-
+        return DEFAULT_FUEL_CONSUMPTION;
     }
+
     public String checkTank(String[] info){
         String tankVolume = info[4];
         try {
@@ -63,9 +63,7 @@ public abstract class PlaneParser implements IParsePlane, ICheckable {
             return (volume > MIN_TANK_VOLUME ) ? tankVolume : DEFAULT_TANK_VOLUME;
         }catch (NumberFormatException e){
             logger.log(Level.WARN, "Wrong tankVolume, please check! Default volume " + DEFAULT_TANK_VOLUME + " kg was set in aircompany: " + info[0] + " " + info[1] + " " + info[2] );
-            return DEFAULT_TANK_VOLUME;
         }
+        return DEFAULT_TANK_VOLUME;
     }
-
-
 }

@@ -28,8 +28,8 @@ public class CargoAirPlaneFactory extends AbstractPlaneFactory {
             return new CargoAirplane(id, model, fuelConsumption, fuelTank, cargoWeight);
         }else{
             logger.log(Level.ERROR, "Wrong number of parameters in line with info: " + info[0] + " " + info[1] + " " + info[2]);
-            return null;
         }
+        return null;
     }
 }
 
