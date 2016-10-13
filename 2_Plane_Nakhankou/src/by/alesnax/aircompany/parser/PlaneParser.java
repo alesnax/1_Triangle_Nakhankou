@@ -23,8 +23,6 @@ public abstract class PlaneParser implements IParsePlane, ICheckable {
     private static final String DEFAULT_TANK_VOLUME = "10000";
     private static final double MIN_TANK_VOLUME = 500;
 
-
-
     public String checkId(String[] info){
         String id = info[1];
         if(id.matches(ID_PATTERN)){

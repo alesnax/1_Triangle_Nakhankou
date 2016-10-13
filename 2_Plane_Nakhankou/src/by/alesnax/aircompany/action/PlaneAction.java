@@ -7,7 +7,6 @@ import by.alesnax.aircompany.entity.Plane;
 import java.util.ArrayList;
 import java.util.Collections;
 
-
 /**
  * Created by alesnax on 08.10.2016.
  */

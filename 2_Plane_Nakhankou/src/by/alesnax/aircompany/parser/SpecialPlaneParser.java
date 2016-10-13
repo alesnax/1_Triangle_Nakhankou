@@ -8,7 +8,6 @@ import org.apache.logging.log4j.Logger;
 /**
  * Created by alesnax on 09.10.2016.
  */
-
 public class SpecialPlaneParser extends PlaneParser{
     private static Logger logger = LogManager.getLogger(SpecialPlaneParser.class);
 

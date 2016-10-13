@@ -33,7 +33,6 @@ public class ReportResult {
             sb.append("\n").append(count).append(".  Plane Id: ").append(plane.getId()).append(",  model: ").append(plane.getModel())
                     .append(" has fuelConsumption ").append(plane.getFuelConsumption()).append(" kg/km");
         }
-
         logger.log(Level.INFO, "\n" + "Found " + count + " planes with required level of fuel consumption! " + sb.toString());
     }
 
@@ -45,7 +44,6 @@ public class ReportResult {
         for (Plane plane : airCraft) {
             sb.append("\n").append(plane);
         }
-
         logger.log(Level.INFO, "\n" + "List of planes sorted by distance: " + sb.toString());
     }
 }

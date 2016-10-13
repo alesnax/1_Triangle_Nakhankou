@@ -15,7 +15,6 @@ import java.util.ArrayList;
 /**
  * Created by alesnax on 08.10.2016.
  */
-
 public class Creator {
 
     private static Logger logger = LogManager.getLogger(Creator.class);
