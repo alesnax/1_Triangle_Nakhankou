@@ -10,7 +10,7 @@ import org.apache.logging.log4j.Logger;
  * Created by alesnax on 08.10.2016.
  */
 public class AirLinerFactory extends AbstractPlaneFactory {
-    private static final Logger logger = LogManager.getLogger(AirLinerFactory.class);
+    private static Logger logger = LogManager.getLogger(AirLinerFactory.class);
     private static final int FIELD_NUM = 7;
 
     @Override

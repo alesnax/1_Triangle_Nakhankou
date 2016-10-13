@@ -35,8 +35,14 @@ public class PlaneAction {
         return weight;
     }
 
-    public static void sortPlanesByDistance(AirCompany company){
-        Collections.sort(company.getAirCraft(), new DistanceComparator());
+
+    /*
+        method sortPlanesByDistance has ArrayList<Plane> as parameter, not to change order of  company aircraft
+        after every calling but to change just order of got local aircraft as in PrintResult class
+    */
+
+    public static void sortPlanesByDistance(ArrayList<Plane> airCraft){
+        Collections.sort(airCraft, new DistanceComparator());
     }
 
 

@@ -24,9 +24,6 @@ public class Airliner extends Plane {
         this.maxLuggageWeight = maxLuggageWeight;
     }
 
-
-
-
     public int getSeats() {
         return seats;
     }
@@ -53,7 +50,6 @@ public class Airliner extends Plane {
 
         if (getSeats() != airliner.getSeats()) return false;
         return Double.compare(airliner.getMaxLuggageWeight(), getMaxLuggageWeight()) == 0;
-
     }
 
     @Override

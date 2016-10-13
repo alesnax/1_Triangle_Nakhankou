@@ -55,7 +55,6 @@ public class SpecialPlane extends Plane {
 
         if (Double.compare(that.getUsefulWeight(), getUsefulWeight()) != 0) return false;
         return getType() == that.getType();
-
     }
 
     @Override

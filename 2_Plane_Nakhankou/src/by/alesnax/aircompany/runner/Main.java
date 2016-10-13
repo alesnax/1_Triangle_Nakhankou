@@ -16,12 +16,12 @@ public class Main {
         AirCompany belavia = new AirCompany("Belavia", "BEL");
 
         Creator creator = new Creator();
-        ArrayList<Plane> list = creator.createAirCraft("text/Belavia.txt");
+        ArrayList<Plane> airCraft = creator.createAirCraft("text/Belavia.txt");
+        belavia.setAirCraft(airCraft);
 
-        belavia.setAirCraft(list);
+        ReportResult.printCompanyCapacityAndSeats(belavia);
+        ReportResult.printPlanesByFuelConsumption(belavia, 2, 8);
+        ReportResult.printCompanyAirCraftSortByDistance(belavia);
 
-        double carrying = PlaneAction.defineTotalCarrying(belavia);
-        int pass = PlaneAction.defineTotalPassengersOnBoard(belavia);
-        System.out.println("Carrying: " + carrying + ", totalPass: " + pass);
     }
 }

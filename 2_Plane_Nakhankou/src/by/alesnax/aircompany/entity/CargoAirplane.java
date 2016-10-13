@@ -39,7 +39,6 @@ public class CargoAirplane extends Plane{
         CargoAirplane that = (CargoAirplane) o;
 
         return Double.compare(that.getCargoWeight(), getCargoWeight()) == 0;
-
     }
 
     @Override

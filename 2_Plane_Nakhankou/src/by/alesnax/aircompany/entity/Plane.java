@@ -66,7 +66,6 @@ public abstract class Plane {
         if (Double.compare(plane.getFuelTank(), getFuelTank()) != 0) return false;
         if (!getId().equals(plane.getId())) return false;
         return getModel().equals(plane.getModel());
-
     }
 
     @Override

@@ -8,7 +8,7 @@ import org.apache.logging.log4j.Logger;
  * Created by alesnax on 09.10.2016.
  */
 public abstract class PlaneParser implements IParsePlane, ICheckable {
-    private static final Logger logger = LogManager.getLogger(PlaneParser.class);
+    private static Logger logger = LogManager.getLogger(PlaneParser.class);
 
     private static final String ID_PATTERN = "[A-Z0-9]{1,4}[-]?[A-Z0-9]{1,4}";
     private static final String MODEL_PATTERN = "[A-Za-z0-9]+[-]?[A-Za-z0-9]+";
