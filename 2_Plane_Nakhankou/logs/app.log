@@ -22,3 +22,15 @@ List of planes sorted by distance:
 Plane{id='F007', model='TU-123', fuelConsumption=4.0 kg/km, fuelTank=8000.0 kg  Type: SpecialPlane{usefulWeight=25000.0, type=FIREFIGHTER}
 Plane{id='312A', model='Boeing-747', fuelConsumption=3.0 kg/km, fuelTank=10000.0 kg  Type: Airliner{passengers=150, maxLuggageWeight=5000.0}
 Plane{id='535C', model='AN-2', fuelConsumption=7.0 kg/km, fuelTank=25000.0 kg  Type: CargoAirplane{cargoWeight=40000.0}
+2016-10-13 23:22:35 [main] INFO  by.alesnax.aircompany.runner.ReportResult  line:23 - 
+Total number of seats on plane of company: 150, total capacity of aircraft: 125000.0 kg.
+2016-10-13 23:22:35 [main] INFO  by.alesnax.aircompany.runner.ReportResult  line:36 - 
+Found 3 planes with required level of fuel consumption! 
+1.  Plane Id: 312A,  model: Boeing-747 has fuelConsumption 3.0 kg/km
+2.  Plane Id: 535C,  model: AN-2 has fuelConsumption 7.0 kg/km
+3.  Plane Id: F007,  model: TU-123 has fuelConsumption 4.0 kg/km
+2016-10-13 23:22:35 [main] INFO  by.alesnax.aircompany.runner.ReportResult  line:47 - 
+List of planes sorted by distance: 
+Plane{id='F007', model='TU-123', fuelConsumption=4.0 kg/km, fuelTank=8000.0 kg  Type: SpecialPlane{usefulWeight=25000.0, type=FIREFIGHTER}
+Plane{id='312A', model='Boeing-747', fuelConsumption=3.0 kg/km, fuelTank=10000.0 kg  Type: Airliner{passengers=150, maxLuggageWeight=5000.0}
+Plane{id='535C', model='AN-2', fuelConsumption=7.0 kg/km, fuelTank=25000.0 kg  Type: CargoAirplane{cargoWeight=40000.0}

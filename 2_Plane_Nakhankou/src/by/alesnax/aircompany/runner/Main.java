@@ -1,6 +1,5 @@
 package by.alesnax.aircompany.runner;
 
-import by.alesnax.aircompany.action.PlaneAction;
 import by.alesnax.aircompany.entity.*;
 import by.alesnax.aircompany.factory.*;
 
