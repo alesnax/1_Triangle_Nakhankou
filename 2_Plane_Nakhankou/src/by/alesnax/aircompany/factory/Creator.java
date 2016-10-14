@@ -37,10 +37,10 @@ public class Creator {
                 case AIRLINER:
                     plane = airLinerFactory.createPlane(info);
                     break;
-                case CARGOAIRPLANE:
+                case CARGO_AIRPLANE:
                     plane = cargoAirPlaneFactory.createPlane(info);
                     break;
-                case SPECIALPLANE:
+                case SPECIAL_PLANE:
                     plane = specialPlaneFactory.createPlane(info);
                     break;
                 default:
