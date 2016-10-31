@@ -1,0 +1,176 @@
+2016-10-31 19:32:44 [main] INFO  by.alesnax.logisticsbase.runner.Runner  line:27 - 10 trucks were created 
+2016-10-31 19:32:44 [main] INFO  by.alesnax.logisticsbase.runner.Runner  line:35 - Orders for trucks were created and set
+2016-10-31 19:32:44 [main] INFO  by.alesnax.logisticsbase.runner.Runner  line:40 - storage InvestSales created 
+
+2016-10-31 19:32:45 [Thread-4] INFO  by.alesnax.logisticsbase.entity.WaitingQueue  line:35 - Perishable truck #3 added into 1 pos
+2016-10-31 19:32:45 [Thread-4] INFO  by.alesnax.logisticsbase.entity.Truck  line:120 - truck #3 got Terminal #0
+2016-10-31 19:32:45 [Thread-4] INFO  by.alesnax.logisticsbase.entity.WaitingQueue  line:60 - truck #3 was deleted from queue
+2016-10-31 19:32:45 [Thread-4] INFO  by.alesnax.logisticsbase.entity.Truck  line:128 - truck #3 was served by Terminal #0
+2016-10-31 19:32:45 [Thread-3] INFO  by.alesnax.logisticsbase.entity.WaitingQueue  line:31 - Normal truck #2 added into 1 pos
+2016-10-31 19:32:45 [Thread-2] INFO  by.alesnax.logisticsbase.entity.WaitingQueue  line:35 - Perishable truck #1 added into 1 pos
+2016-10-31 19:32:45 [Thread-2] INFO  by.alesnax.logisticsbase.entity.Truck  line:120 - truck #1 got Terminal #1
+2016-10-31 19:32:45 [Thread-2] INFO  by.alesnax.logisticsbase.entity.WaitingQueue  line:60 - truck #1 was deleted from queue
+2016-10-31 19:32:45 [Thread-3] INFO  by.alesnax.logisticsbase.entity.Truck  line:120 - truck #2 got Terminal #2
+2016-10-31 19:32:45 [Thread-3] INFO  by.alesnax.logisticsbase.entity.WaitingQueue  line:60 - truck #2 was deleted from queue
+2016-10-31 19:32:45 [Thread-10] INFO  by.alesnax.logisticsbase.entity.WaitingQueue  line:35 - Perishable truck #9 added into 1 pos
+2016-10-31 19:32:45 [Thread-10] INFO  by.alesnax.logisticsbase.entity.Truck  line:120 - truck #9 got Terminal #3
+2016-10-31 19:32:45 [Thread-10] INFO  by.alesnax.logisticsbase.entity.WaitingQueue  line:60 - truck #9 was deleted from queue
+2016-10-31 19:32:46 [Thread-10] INFO  by.alesnax.logisticsbase.entity.Truck  line:128 - truck #9 was served by Terminal #3
+2016-10-31 19:32:46 [Thread-9] INFO  by.alesnax.logisticsbase.entity.WaitingQueue  line:31 - Normal truck #8 added into 1 pos
+2016-10-31 19:32:46 [Thread-2] INFO  by.alesnax.logisticsbase.entity.Truck  line:128 - truck #1 was served by Terminal #1
+2016-10-31 19:32:46 [Thread-9] INFO  by.alesnax.logisticsbase.entity.Truck  line:120 - truck #8 got Terminal #0
+2016-10-31 19:32:46 [Thread-9] INFO  by.alesnax.logisticsbase.entity.WaitingQueue  line:60 - truck #8 was deleted from queue
+2016-10-31 19:32:46 [Thread-5] INFO  by.alesnax.logisticsbase.entity.WaitingQueue  line:35 - Perishable truck #4 added into 1 pos
+2016-10-31 19:32:46 [Thread-7] INFO  by.alesnax.logisticsbase.entity.WaitingQueue  line:35 - Perishable truck #6 added into 2 pos
+2016-10-31 19:32:46 [Thread-5] INFO  by.alesnax.logisticsbase.entity.Truck  line:120 - truck #4 got Terminal #3
+2016-10-31 19:32:46 [Thread-5] INFO  by.alesnax.logisticsbase.entity.WaitingQueue  line:60 - truck #4 was deleted from queue
+2016-10-31 19:32:46 [Thread-3] INFO  by.alesnax.logisticsbase.entity.Truck  line:128 - truck #2 was served by Terminal #2
+2016-10-31 19:32:46 [Thread-7] INFO  by.alesnax.logisticsbase.entity.Truck  line:120 - truck #6 got Terminal #1
+2016-10-31 19:32:46 [Thread-7] INFO  by.alesnax.logisticsbase.entity.WaitingQueue  line:60 - truck #6 was deleted from queue
+2016-10-31 19:32:46 [Thread-6] INFO  by.alesnax.logisticsbase.entity.WaitingQueue  line:31 - Normal truck #5 added into 1 pos
+2016-10-31 19:32:46 [Thread-1] INFO  by.alesnax.logisticsbase.entity.WaitingQueue  line:35 - Perishable truck #0 added into 1 pos
+2016-10-31 19:32:46 [Thread-8] INFO  by.alesnax.logisticsbase.entity.WaitingQueue  line:31 - Normal truck #7 added into 3 pos
+2016-10-31 19:32:46 [Thread-1] INFO  by.alesnax.logisticsbase.entity.Truck  line:120 - truck #0 got Terminal #2
+2016-10-31 19:32:46 [Thread-1] INFO  by.alesnax.logisticsbase.entity.WaitingQueue  line:60 - truck #0 was deleted from queue
+2016-10-31 19:32:46 [Thread-1] INFO  by.alesnax.logisticsbase.entity.Truck  line:128 - truck #0 was served by Terminal #2
+2016-10-31 19:32:46 [Thread-6] INFO  by.alesnax.logisticsbase.entity.Truck  line:120 - truck #5 got Terminal #2
+2016-10-31 19:32:46 [Thread-6] INFO  by.alesnax.logisticsbase.entity.WaitingQueue  line:60 - truck #5 was deleted from queue
+2016-10-31 19:32:47 [Thread-9] INFO  by.alesnax.logisticsbase.entity.Truck  line:128 - truck #8 was served by Terminal #0
+2016-10-31 19:32:47 [Thread-8] INFO  by.alesnax.logisticsbase.entity.Truck  line:120 - truck #7 got Terminal #0
+2016-10-31 19:32:47 [Thread-8] INFO  by.alesnax.logisticsbase.entity.WaitingQueue  line:60 - truck #7 was deleted from queue
+2016-10-31 19:32:47 [Thread-6] INFO  by.alesnax.logisticsbase.entity.Truck  line:128 - truck #5 was served by Terminal #2
+2016-10-31 19:32:47 [Thread-5] INFO  by.alesnax.logisticsbase.entity.Truck  line:128 - truck #4 was served by Terminal #3
+2016-10-31 19:32:47 [Thread-7] INFO  by.alesnax.logisticsbase.entity.Truck  line:128 - truck #6 was served by Terminal #1
+2016-10-31 19:32:48 [Thread-8] INFO  by.alesnax.logisticsbase.entity.Truck  line:128 - truck #7 was served by Terminal #0
+2016-10-31 19:32:54 [main] INFO  by.alesnax.logisticsbase.runner.Runner  line:27 - 10 trucks were created 
+2016-10-31 19:32:54 [main] INFO  by.alesnax.logisticsbase.runner.Runner  line:35 - Orders for trucks were created and set
+2016-10-31 19:32:54 [main] INFO  by.alesnax.logisticsbase.runner.Runner  line:40 - storage InvestSales created 
+
+2016-10-31 19:32:55 [Thread-4] INFO  by.alesnax.logisticsbase.entity.WaitingQueue  line:31 - Normal truck #3 added into 1 pos
+2016-10-31 19:32:55 [Thread-4] INFO  by.alesnax.logisticsbase.entity.Truck  line:120 - truck #3 got Terminal #0
+2016-10-31 19:32:55 [Thread-4] INFO  by.alesnax.logisticsbase.entity.WaitingQueue  line:60 - truck #3 was deleted from queue
+2016-10-31 19:32:55 [Thread-8] INFO  by.alesnax.logisticsbase.entity.WaitingQueue  line:31 - Normal truck #7 added into 1 pos
+2016-10-31 19:32:55 [Thread-8] INFO  by.alesnax.logisticsbase.entity.Truck  line:120 - truck #7 got Terminal #1
+2016-10-31 19:32:55 [Thread-8] INFO  by.alesnax.logisticsbase.entity.WaitingQueue  line:60 - truck #7 was deleted from queue
+2016-10-31 19:32:55 [Thread-5] INFO  by.alesnax.logisticsbase.entity.WaitingQueue  line:35 - Perishable truck #4 added into 1 pos
+2016-10-31 19:32:55 [Thread-5] INFO  by.alesnax.logisticsbase.entity.Truck  line:120 - truck #4 got Terminal #2
+2016-10-31 19:32:55 [Thread-5] INFO  by.alesnax.logisticsbase.entity.WaitingQueue  line:60 - truck #4 was deleted from queue
+2016-10-31 19:32:55 [Thread-7] INFO  by.alesnax.logisticsbase.entity.WaitingQueue  line:31 - Normal truck #6 added into 1 pos
+2016-10-31 19:32:56 [Thread-7] INFO  by.alesnax.logisticsbase.entity.Truck  line:120 - truck #6 got Terminal #3
+2016-10-31 19:32:56 [Thread-7] INFO  by.alesnax.logisticsbase.entity.WaitingQueue  line:60 - truck #6 was deleted from queue
+2016-10-31 19:32:56 [Thread-4] INFO  by.alesnax.logisticsbase.entity.Truck  line:128 - truck #3 was served by Terminal #0
+2016-10-31 19:32:56 [Thread-8] INFO  by.alesnax.logisticsbase.entity.Truck  line:128 - truck #7 was served by Terminal #1
+2016-10-31 19:32:56 [Thread-1] INFO  by.alesnax.logisticsbase.entity.WaitingQueue  line:35 - Perishable truck #0 added into 1 pos
+2016-10-31 19:32:56 [Thread-1] INFO  by.alesnax.logisticsbase.entity.Truck  line:120 - truck #0 got Terminal #0
+2016-10-31 19:32:56 [Thread-1] INFO  by.alesnax.logisticsbase.entity.WaitingQueue  line:60 - truck #0 was deleted from queue
+2016-10-31 19:32:56 [Thread-3] INFO  by.alesnax.logisticsbase.entity.WaitingQueue  line:31 - Normal truck #2 added into 1 pos
+2016-10-31 19:32:56 [Thread-7] INFO  by.alesnax.logisticsbase.entity.Truck  line:128 - truck #6 was served by Terminal #3
+2016-10-31 19:32:56 [Thread-3] INFO  by.alesnax.logisticsbase.entity.Truck  line:120 - truck #2 got Terminal #1
+2016-10-31 19:32:56 [Thread-3] INFO  by.alesnax.logisticsbase.entity.WaitingQueue  line:60 - truck #2 was deleted from queue
+2016-10-31 19:32:56 [Thread-9] INFO  by.alesnax.logisticsbase.entity.WaitingQueue  line:35 - Perishable truck #8 added into 1 pos
+2016-10-31 19:32:56 [Thread-9] INFO  by.alesnax.logisticsbase.entity.Truck  line:120 - truck #8 got Terminal #3
+2016-10-31 19:32:56 [Thread-9] INFO  by.alesnax.logisticsbase.entity.WaitingQueue  line:60 - truck #8 was deleted from queue
+2016-10-31 19:32:56 [Thread-6] INFO  by.alesnax.logisticsbase.entity.WaitingQueue  line:31 - Normal truck #5 added into 1 pos
+2016-10-31 19:32:56 [Thread-2] INFO  by.alesnax.logisticsbase.entity.WaitingQueue  line:31 - Normal truck #1 added into 2 pos
+2016-10-31 19:32:56 [Thread-9] INFO  by.alesnax.logisticsbase.entity.Truck  line:128 - truck #8 was served by Terminal #3
+2016-10-31 19:32:56 [Thread-6] INFO  by.alesnax.logisticsbase.entity.Truck  line:120 - truck #5 got Terminal #3
+2016-10-31 19:32:56 [Thread-6] INFO  by.alesnax.logisticsbase.entity.WaitingQueue  line:60 - truck #5 was deleted from queue
+2016-10-31 19:32:57 [Thread-5] INFO  by.alesnax.logisticsbase.entity.Truck  line:128 - truck #4 was served by Terminal #2
+2016-10-31 19:32:57 [Thread-2] INFO  by.alesnax.logisticsbase.entity.Truck  line:120 - truck #1 got Terminal #2
+2016-10-31 19:32:57 [Thread-2] INFO  by.alesnax.logisticsbase.entity.WaitingQueue  line:60 - truck #1 was deleted from queue
+2016-10-31 19:32:57 [Thread-10] INFO  by.alesnax.logisticsbase.entity.WaitingQueue  line:31 - Normal truck #9 added into 1 pos
+2016-10-31 19:32:57 [Thread-3] INFO  by.alesnax.logisticsbase.entity.Truck  line:128 - truck #2 was served by Terminal #1
+2016-10-31 19:32:57 [Thread-10] INFO  by.alesnax.logisticsbase.entity.Truck  line:120 - truck #9 got Terminal #1
+2016-10-31 19:32:57 [Thread-10] INFO  by.alesnax.logisticsbase.entity.WaitingQueue  line:60 - truck #9 was deleted from queue
+2016-10-31 19:32:57 [Thread-1] INFO  by.alesnax.logisticsbase.entity.Truck  line:128 - truck #0 was served by Terminal #0
+2016-10-31 19:32:57 [Thread-6] INFO  by.alesnax.logisticsbase.entity.Truck  line:128 - truck #5 was served by Terminal #3
+2016-10-31 19:32:58 [Thread-2] INFO  by.alesnax.logisticsbase.entity.Truck  line:128 - truck #1 was served by Terminal #2
+2016-10-31 19:32:58 [Thread-10] INFO  by.alesnax.logisticsbase.entity.Truck  line:128 - truck #9 was served by Terminal #1
+2016-10-31 19:34:17 [main] INFO  by.alesnax.logisticsbase.runner.Runner  line:27 - 10 trucks were created 
+2016-10-31 19:34:17 [main] INFO  by.alesnax.logisticsbase.runner.Runner  line:35 - Orders for trucks were created and set
+2016-10-31 19:34:17 [main] INFO  by.alesnax.logisticsbase.runner.Runner  line:40 - storage InvestSales created 
+
+2016-10-31 19:34:17 [Thread-6] INFO  by.alesnax.logisticsbase.entity.WaitingQueue  line:31 - Normal truck #5 added into 1 pos
+2016-10-31 19:34:17 [Thread-6] INFO  by.alesnax.logisticsbase.entity.Truck  line:120 - truck #5 got Terminal #0
+2016-10-31 19:34:17 [Thread-6] INFO  by.alesnax.logisticsbase.entity.WaitingQueue  line:60 - truck #5 was deleted from queue
+2016-10-31 19:34:17 [Thread-3] INFO  by.alesnax.logisticsbase.entity.WaitingQueue  line:31 - Normal truck #2 added into 1 pos
+2016-10-31 19:34:18 [Thread-1] INFO  by.alesnax.logisticsbase.entity.WaitingQueue  line:31 - Normal truck #0 added into 2 pos
+2016-10-31 19:34:18 [Thread-3] INFO  by.alesnax.logisticsbase.entity.Truck  line:120 - truck #2 got Terminal #1
+2016-10-31 19:34:18 [Thread-3] INFO  by.alesnax.logisticsbase.entity.WaitingQueue  line:60 - truck #2 was deleted from queue
+2016-10-31 19:34:18 [Thread-1] INFO  by.alesnax.logisticsbase.entity.Truck  line:120 - truck #0 got Terminal #2
+2016-10-31 19:34:18 [Thread-1] INFO  by.alesnax.logisticsbase.entity.WaitingQueue  line:60 - truck #0 was deleted from queue
+2016-10-31 19:34:18 [Thread-2] INFO  by.alesnax.logisticsbase.entity.WaitingQueue  line:31 - Normal truck #1 added into 1 pos
+2016-10-31 19:34:18 [Thread-2] INFO  by.alesnax.logisticsbase.entity.Truck  line:120 - truck #1 got Terminal #3
+2016-10-31 19:34:18 [Thread-2] INFO  by.alesnax.logisticsbase.entity.WaitingQueue  line:60 - truck #1 was deleted from queue
+2016-10-31 19:34:18 [Thread-1] INFO  by.alesnax.logisticsbase.entity.Truck  line:128 - truck #0 was served by Terminal #2
+2016-10-31 19:34:18 [Thread-9] INFO  by.alesnax.logisticsbase.entity.WaitingQueue  line:31 - Normal truck #8 added into 1 pos
+2016-10-31 19:34:18 [Thread-9] INFO  by.alesnax.logisticsbase.entity.Truck  line:120 - truck #8 got Terminal #2
+2016-10-31 19:34:18 [Thread-9] INFO  by.alesnax.logisticsbase.entity.WaitingQueue  line:60 - truck #8 was deleted from queue
+2016-10-31 19:34:19 [Thread-2] INFO  by.alesnax.logisticsbase.entity.Truck  line:128 - truck #1 was served by Terminal #3
+2016-10-31 19:34:19 [Thread-4] INFO  by.alesnax.logisticsbase.entity.WaitingQueue  line:31 - Normal truck #3 added into 1 pos
+2016-10-31 19:34:19 [Thread-8] INFO  by.alesnax.logisticsbase.entity.WaitingQueue  line:31 - Normal truck #7 added into 2 pos
+2016-10-31 19:34:19 [Thread-4] INFO  by.alesnax.logisticsbase.entity.Truck  line:120 - truck #3 got Terminal #3
+2016-10-31 19:34:19 [Thread-4] INFO  by.alesnax.logisticsbase.entity.WaitingQueue  line:60 - truck #3 was deleted from queue
+2016-10-31 19:34:19 [Thread-6] INFO  by.alesnax.logisticsbase.entity.Truck  line:128 - truck #5 was served by Terminal #0
+2016-10-31 19:34:19 [Thread-8] INFO  by.alesnax.logisticsbase.entity.Truck  line:120 - truck #7 got Terminal #0
+2016-10-31 19:34:19 [Thread-8] INFO  by.alesnax.logisticsbase.entity.WaitingQueue  line:60 - truck #7 was deleted from queue
+2016-10-31 19:34:19 [Thread-7] INFO  by.alesnax.logisticsbase.entity.WaitingQueue  line:31 - Normal truck #6 added into 1 pos
+2016-10-31 19:34:19 [Thread-5] INFO  by.alesnax.logisticsbase.entity.WaitingQueue  line:35 - Perishable truck #4 added into 1 pos
+2016-10-31 19:34:19 [Thread-10] INFO  by.alesnax.logisticsbase.entity.WaitingQueue  line:35 - Perishable truck #9 added into 2 pos
+2016-10-31 19:34:21 [Thread-3] INFO  by.alesnax.logisticsbase.entity.Truck  line:128 - truck #2 was served by Terminal #1
+2016-10-31 19:34:21 [Thread-7] INFO  by.alesnax.logisticsbase.entity.Truck  line:120 - truck #6 got Terminal #1
+2016-10-31 19:34:21 [Thread-7] INFO  by.alesnax.logisticsbase.entity.WaitingQueue  line:60 - truck #6 was deleted from queue
+2016-10-31 19:34:21 [Thread-4] INFO  by.alesnax.logisticsbase.entity.Truck  line:128 - truck #3 was served by Terminal #3
+2016-10-31 19:34:21 [Thread-5] INFO  by.alesnax.logisticsbase.entity.Truck  line:120 - truck #4 got Terminal #3
+2016-10-31 19:34:21 [Thread-5] INFO  by.alesnax.logisticsbase.entity.WaitingQueue  line:60 - truck #4 was deleted from queue
+2016-10-31 19:34:22 [Thread-8] INFO  by.alesnax.logisticsbase.entity.Truck  line:128 - truck #7 was served by Terminal #0
+2016-10-31 19:34:22 [Thread-10] INFO  by.alesnax.logisticsbase.entity.Truck  line:120 - truck #9 got Terminal #0
+2016-10-31 19:34:22 [Thread-10] INFO  by.alesnax.logisticsbase.entity.WaitingQueue  line:60 - truck #9 was deleted from queue
+2016-10-31 19:34:22 [Thread-9] INFO  by.alesnax.logisticsbase.entity.Truck  line:128 - truck #8 was served by Terminal #2
+2016-10-31 19:34:22 [Thread-7] INFO  by.alesnax.logisticsbase.entity.Truck  line:128 - truck #6 was served by Terminal #1
+2016-10-31 19:34:23 [Thread-10] INFO  by.alesnax.logisticsbase.entity.Truck  line:128 - truck #9 was served by Terminal #0
+2016-10-31 19:34:25 [Thread-5] INFO  by.alesnax.logisticsbase.entity.Truck  line:128 - truck #4 was served by Terminal #3
+2016-10-31 19:34:35 [main] INFO  by.alesnax.logisticsbase.runner.Runner  line:27 - 10 trucks were created 
+2016-10-31 19:34:35 [main] INFO  by.alesnax.logisticsbase.runner.Runner  line:35 - Orders for trucks were created and set
+2016-10-31 19:34:35 [main] INFO  by.alesnax.logisticsbase.runner.Runner  line:40 - storage InvestSales created 
+
+2016-10-31 19:34:35 [Thread-1] INFO  by.alesnax.logisticsbase.entity.WaitingQueue  line:31 - Normal truck #0 added into 1 pos
+2016-10-31 19:34:35 [Thread-1] INFO  by.alesnax.logisticsbase.entity.Truck  line:120 - truck #0 got Terminal #0
+2016-10-31 19:34:35 [Thread-1] INFO  by.alesnax.logisticsbase.entity.WaitingQueue  line:60 - truck #0 was deleted from queue
+2016-10-31 19:34:36 [Thread-2] INFO  by.alesnax.logisticsbase.entity.WaitingQueue  line:31 - Normal truck #1 added into 1 pos
+2016-10-31 19:34:36 [Thread-2] INFO  by.alesnax.logisticsbase.entity.Truck  line:120 - truck #1 got Terminal #1
+2016-10-31 19:34:36 [Thread-2] INFO  by.alesnax.logisticsbase.entity.WaitingQueue  line:60 - truck #1 was deleted from queue
+2016-10-31 19:34:36 [Thread-10] INFO  by.alesnax.logisticsbase.entity.WaitingQueue  line:35 - Perishable truck #9 added into 1 pos
+2016-10-31 19:34:37 [Thread-4] INFO  by.alesnax.logisticsbase.entity.WaitingQueue  line:31 - Normal truck #3 added into 2 pos
+2016-10-31 19:34:37 [Thread-10] INFO  by.alesnax.logisticsbase.entity.Truck  line:120 - truck #9 got Terminal #2
+2016-10-31 19:34:37 [Thread-10] INFO  by.alesnax.logisticsbase.entity.WaitingQueue  line:60 - truck #9 was deleted from queue
+2016-10-31 19:34:37 [Thread-4] INFO  by.alesnax.logisticsbase.entity.Truck  line:120 - truck #3 got Terminal #3
+2016-10-31 19:34:37 [Thread-4] INFO  by.alesnax.logisticsbase.entity.WaitingQueue  line:60 - truck #3 was deleted from queue
+2016-10-31 19:34:37 [Thread-7] INFO  by.alesnax.logisticsbase.entity.WaitingQueue  line:35 - Perishable truck #6 added into 1 pos
+2016-10-31 19:34:37 [Thread-3] INFO  by.alesnax.logisticsbase.entity.WaitingQueue  line:31 - Normal truck #2 added into 2 pos
+2016-10-31 19:34:37 [Thread-5] INFO  by.alesnax.logisticsbase.entity.WaitingQueue  line:31 - Normal truck #4 added into 3 pos
+2016-10-31 19:34:38 [Thread-10] INFO  by.alesnax.logisticsbase.entity.Truck  line:128 - truck #9 was served by Terminal #2
+2016-10-31 19:34:38 [Thread-7] INFO  by.alesnax.logisticsbase.entity.Truck  line:120 - truck #6 got Terminal #2
+2016-10-31 19:34:38 [Thread-7] INFO  by.alesnax.logisticsbase.entity.WaitingQueue  line:60 - truck #6 was deleted from queue
+2016-10-31 19:34:38 [Thread-6] INFO  by.alesnax.logisticsbase.entity.WaitingQueue  line:35 - Perishable truck #5 added into 1 pos
+2016-10-31 19:34:38 [Thread-8] INFO  by.alesnax.logisticsbase.entity.WaitingQueue  line:31 - Normal truck #7 added into 4 pos
+2016-10-31 19:34:38 [Thread-9] INFO  by.alesnax.logisticsbase.entity.WaitingQueue  line:31 - Normal truck #8 added into 5 pos
+2016-10-31 19:34:39 [Thread-1] INFO  by.alesnax.logisticsbase.entity.Truck  line:128 - truck #0 was served by Terminal #0
+2016-10-31 19:34:39 [Thread-3] INFO  by.alesnax.logisticsbase.entity.Truck  line:120 - truck #2 got Terminal #0
+2016-10-31 19:34:39 [Thread-3] INFO  by.alesnax.logisticsbase.entity.WaitingQueue  line:60 - truck #2 was deleted from queue
+2016-10-31 19:34:39 [Thread-7] INFO  by.alesnax.logisticsbase.entity.Truck  line:128 - truck #6 was served by Terminal #2
+2016-10-31 19:34:39 [Thread-6] INFO  by.alesnax.logisticsbase.entity.Truck  line:120 - truck #5 got Terminal #2
+2016-10-31 19:34:39 [Thread-6] INFO  by.alesnax.logisticsbase.entity.WaitingQueue  line:60 - truck #5 was deleted from queue
+2016-10-31 19:34:39 [Thread-4] INFO  by.alesnax.logisticsbase.entity.Truck  line:128 - truck #3 was served by Terminal #3
+2016-10-31 19:34:39 [Thread-5] INFO  by.alesnax.logisticsbase.entity.Truck  line:120 - truck #4 got Terminal #3
+2016-10-31 19:34:39 [Thread-5] INFO  by.alesnax.logisticsbase.entity.WaitingQueue  line:60 - truck #4 was deleted from queue
+2016-10-31 19:34:39 [Thread-2] INFO  by.alesnax.logisticsbase.entity.Truck  line:128 - truck #1 was served by Terminal #1
+2016-10-31 19:34:39 [Thread-8] INFO  by.alesnax.logisticsbase.entity.Truck  line:120 - truck #7 got Terminal #1
+2016-10-31 19:34:39 [Thread-8] INFO  by.alesnax.logisticsbase.entity.WaitingQueue  line:60 - truck #7 was deleted from queue
+2016-10-31 19:34:40 [Thread-6] INFO  by.alesnax.logisticsbase.entity.Truck  line:128 - truck #5 was served by Terminal #2
+2016-10-31 19:34:40 [Thread-9] INFO  by.alesnax.logisticsbase.entity.Truck  line:120 - truck #8 got Terminal #2
+2016-10-31 19:34:40 [Thread-9] INFO  by.alesnax.logisticsbase.entity.WaitingQueue  line:60 - truck #8 was deleted from queue
+2016-10-31 19:34:40 [Thread-9] INFO  by.alesnax.logisticsbase.entity.Truck  line:128 - truck #8 was served by Terminal #2
+2016-10-31 19:34:40 [Thread-5] INFO  by.alesnax.logisticsbase.entity.Truck  line:128 - truck #4 was served by Terminal #3
+2016-10-31 19:34:40 [Thread-8] INFO  by.alesnax.logisticsbase.entity.Truck  line:128 - truck #7 was served by Terminal #1
+2016-10-31 19:34:42 [Thread-3] INFO  by.alesnax.logisticsbase.entity.Truck  line:128 - truck #2 was served by Terminal #0
