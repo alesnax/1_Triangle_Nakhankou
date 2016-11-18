@@ -1,0 +1,243 @@
+2016-11-18 20:46:02 [main] INFO  by.alesnax.textparsing.reader.TextReader  line:33 - File text/ExampleText.txt was read successfully!
+2016-11-18 20:46:02 [main] INFO  by.alesnax.textparsing.logic.FileParser  line:21 - File text/ExampleText.txt was parsed successfully
+2016-11-18 20:46:02 [main] INFO  by.alesnax.textparsing.logic.TextReconstructor  line:37 - Parsed text:
+	It has survived not only five centuries, but also the leap into 17 electronic 2 typesetting, remaining 8 essentially -3 unchanged. It was popularised in the 5 with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Ipsum Lorem.
+	It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using 6 Ipsum is that it has a more normal distribution of letters, as opposed to using ' Content here, content here ', making it look like readable English.
+	It is a 1200 established fact - that a reader will be of a page when looking at its layout?
+	Hello...
+2016-11-18 20:46:02 [main] INFO  by.alesnax.textparsing.writer.TextWriter  line:20 - Text was written to file text/ResultText_0.txt
+2016-11-18 20:46:02 [main] INFO  by.alesnax.textparsing.reader.TextReader  line:33 - File text/ExampleText.txt was read successfully!
+2016-11-18 20:46:02 [main] INFO  by.alesnax.textparsing.logic.FileParser  line:21 - File text/ExampleText.txt was parsed successfully
+2016-11-18 20:46:02 [main] INFO  by.alesnax.textparsing.logic.TextReconstructor  line:37 - Parsed text:
+	It has survived not only five centuries, but also the leap into 17 elctronic 2 typeseing, remaining 8 essntially -3 unchanged. It was poularised in the 5 with the release of Letraset sheet containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker includng versions of Ipsum Lorem.
+	It is a long establishd fact tha a reade will be distracte by the readable content of a page when looking at its layout. The point of using 6 Ipsum is tha it has a more normal distribution of letters, as oppsed to using ' Content here, content here ', making it look like readable English.
+	It is a 1200 establishd fact - tha a reade will be of a page when looking at its layout?
+	Hello...
+2016-11-18 20:46:02 [main] INFO  by.alesnax.textparsing.writer.TextWriter  line:20 - Text was written to file text/ResultText_1.txt
+2016-11-18 20:46:02 [main] INFO  by.alesnax.textparsing.reader.TextReader  line:33 - File text/ExampleText.txt was read successfully!
+2016-11-18 20:46:02 [main] INFO  by.alesnax.textparsing.logic.FileParser  line:21 - File text/ExampleText.txt was parsed successfully
+2016-11-18 20:46:02 [main] INFO  by.alesnax.textparsing.logic.TextOperation  line:84 - Sorted text:
+	Aldus, a, a, a, a, a, a, a, also, and, as, at, at
+	be, be, but, by
+	Content, centuries, containing, content, content
+	desktop, distracted, distribution
+	English, electronic, essentially, established, established
+	fact, fact, five
+	Hello, has, has, here, here
+	Ipsum, Ipsum, Ipsum, It, It, It, It, in, including, into, is, is, is, it, it, its, its
+	Letraset, Lorem, Lorem, layout, layout, leap, letters, like, like, long, look, looking, looking
+	making, more, more
+	normal, not
+	of, of, of, of, of, of, only, opposed
+	PageMaker, page, page, passages, point, popularised, publishing
+	readable, readable, reader, reader, recently, release, remaining
+	sheets, software, survived
+	The, that, that, that, the, the, the, the, to, typesetting
+	unchanged, using, using
+	versions
+	was, when, when, will, will, with, with
+2016-11-18 20:46:02 [main] INFO  by.alesnax.textparsing.writer.TextWriter  line:20 - Text was written to file text/ResultText_2.txt
+2016-11-18 20:46:02 [main] INFO  by.alesnax.textparsing.reader.TextReader  line:33 - File text/ExampleText.txt was read successfully!
+2016-11-18 20:46:02 [main] INFO  by.alesnax.textparsing.logic.FileParser  line:21 - File text/ExampleText.txt was parsed successfully
+2016-11-18 20:46:02 [main] INFO  by.alesnax.textparsing.logic.TextReconstructor  line:37 - Parsed text:
+It has survived not only five centuries, but also the leap into 17 electronic 2 typesetting, remaining 8 essentially -3 unchanged
+2016-11-18 20:46:02 [main] INFO  by.alesnax.textparsing.logic.TextReconstructor  line:37 - Parsed text:
+It was popularised in the 5 with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Ipsum Lorem
+2016-11-18 20:46:02 [main] INFO  by.alesnax.textparsing.logic.TextReconstructor  line:37 - Parsed text:
+It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout
+2016-11-18 20:46:02 [main] INFO  by.alesnax.textparsing.logic.TextReconstructor  line:37 - Parsed text:
+The point of using 6 Ipsum is that it has a more normal distribution of letters, as opposed to using ' Content here, content here ', making it look like readable English
+2016-11-18 20:46:02 [main] INFO  by.alesnax.textparsing.logic.TextReconstructor  line:37 - Parsed text:
+It is a 1200 established fact - that a reader will be of a page when looking at its layout
+2016-11-18 20:46:02 [main] INFO  by.alesnax.textparsing.logic.TextReconstructor  line:37 - Parsed text:
+Hello
+2016-11-18 20:46:02 [main] INFO  by.alesnax.textparsing.logic.TextOperation  line:132 - Sorted sentences by lexemes amount: 
+Hello...
+It is a 1200 established fact - that a reader will be of a page when looking at its layout?
+It has survived not only five centuries, but also the leap into 17 electronic 2 typesetting, remaining 8 essentially -3 unchanged.
+It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+The point of using 6 Ipsum is that it has a more normal distribution of letters, as opposed to using ' Content here, content here ', making it look like readable English.
+It was popularised in the 5 with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Ipsum Lorem.
+2016-11-18 20:46:02 [main] INFO  by.alesnax.textparsing.writer.TextWriter  line:20 - Text was written to file text/ResultText_3.txt
+2016-11-18 20:46:10 [main] INFO  by.alesnax.textparsing.reader.TextReader  line:33 - File text/ExampleText.txt was read successfully!
+2016-11-18 20:46:10 [main] INFO  by.alesnax.textparsing.logic.FileParser  line:21 - File text/ExampleText.txt was parsed successfully
+2016-11-18 20:46:10 [main] INFO  by.alesnax.textparsing.logic.TextReconstructor  line:37 - Parsed text:
+	It has survived not only five centuries, but also the leap into 17 electronic 2 typesetting, remaining 8 essentially -3 unchanged. It was popularised in the 5 with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Ipsum Lorem.
+	It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using 6 Ipsum is that it has a more normal distribution of letters, as opposed to using ' Content here, content here ', making it look like readable English.
+	It is a 1200 established fact - that a reader will be of a page when looking at its layout?
+	Hello...
+2016-11-18 20:46:10 [main] INFO  by.alesnax.textparsing.writer.TextWriter  line:20 - Text was written to file text/ResultText_0.txt
+2016-11-18 20:46:10 [main] INFO  by.alesnax.textparsing.reader.TextReader  line:33 - File text/ExampleText.txt was read successfully!
+2016-11-18 20:46:10 [main] INFO  by.alesnax.textparsing.logic.FileParser  line:21 - File text/ExampleText.txt was parsed successfully
+2016-11-18 20:46:10 [main] INFO  by.alesnax.textparsing.logic.TextReconstructor  line:37 - Parsed text:
+	It has survived not only five centuries, but also the leap into 17 elctronic 2 typeseing, remaining 8 essntially -3 unchanged. It was poularised in the 5 with the release of Letraset sheet containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker includng versions of Ipsum Lorem.
+	It is a long establishd fact tha a reade will be distracte by the readable content of a page when looking at its layout. The point of using 6 Ipsum is tha it has a more normal distribution of letters, as oppsed to using ' Content here, content here ', making it look like readable English.
+	It is a 1200 establishd fact - tha a reade will be of a page when looking at its layout?
+	Hello...
+2016-11-18 20:46:10 [main] INFO  by.alesnax.textparsing.writer.TextWriter  line:20 - Text was written to file text/ResultText_1.txt
+2016-11-18 20:46:10 [main] INFO  by.alesnax.textparsing.reader.TextReader  line:33 - File text/ExampleText.txt was read successfully!
+2016-11-18 20:46:10 [main] INFO  by.alesnax.textparsing.logic.FileParser  line:21 - File text/ExampleText.txt was parsed successfully
+2016-11-18 20:46:10 [main] INFO  by.alesnax.textparsing.logic.TextOperation  line:84 - Sorted text:
+	Aldus, a, a, a, a, a, a, a, also, and, as, at, at
+	be, be, but, by
+	Content, centuries, containing, content, content
+	desktop, distracted, distribution
+	English, electronic, essentially, established, established
+	fact, fact, five
+	Hello, has, has, here, here
+	Ipsum, Ipsum, Ipsum, It, It, It, It, in, including, into, is, is, is, it, it, its, its
+	Letraset, Lorem, Lorem, layout, layout, leap, letters, like, like, long, look, looking, looking
+	making, more, more
+	normal, not
+	of, of, of, of, of, of, only, opposed
+	PageMaker, page, page, passages, point, popularised, publishing
+	readable, readable, reader, reader, recently, release, remaining
+	sheets, software, survived
+	The, that, that, that, the, the, the, the, to, typesetting
+	unchanged, using, using
+	versions
+	was, when, when, will, will, with, with
+2016-11-18 20:46:10 [main] INFO  by.alesnax.textparsing.writer.TextWriter  line:20 - Text was written to file text/ResultText_2.txt
+2016-11-18 20:46:10 [main] INFO  by.alesnax.textparsing.reader.TextReader  line:33 - File text/ExampleText.txt was read successfully!
+2016-11-18 20:46:10 [main] INFO  by.alesnax.textparsing.logic.FileParser  line:21 - File text/ExampleText.txt was parsed successfully
+2016-11-18 20:46:10 [main] INFO  by.alesnax.textparsing.logic.TextReconstructor  line:37 - Parsed text:
+It has survived not only five centuries, but also the leap into 17 electronic 2 typesetting, remaining 8 essentially -3 unchanged
+2016-11-18 20:46:10 [main] INFO  by.alesnax.textparsing.logic.TextReconstructor  line:37 - Parsed text:
+It was popularised in the 5 with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Ipsum Lorem
+2016-11-18 20:46:10 [main] INFO  by.alesnax.textparsing.logic.TextReconstructor  line:37 - Parsed text:
+It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout
+2016-11-18 20:46:10 [main] INFO  by.alesnax.textparsing.logic.TextReconstructor  line:37 - Parsed text:
+The point of using 6 Ipsum is that it has a more normal distribution of letters, as opposed to using ' Content here, content here ', making it look like readable English
+2016-11-18 20:46:10 [main] INFO  by.alesnax.textparsing.logic.TextReconstructor  line:37 - Parsed text:
+It is a 1200 established fact - that a reader will be of a page when looking at its layout
+2016-11-18 20:46:10 [main] INFO  by.alesnax.textparsing.logic.TextReconstructor  line:37 - Parsed text:
+Hello
+2016-11-18 20:46:10 [main] INFO  by.alesnax.textparsing.logic.TextOperation  line:132 - Sorted sentences by lexemes amount: 
+Hello...
+It is a 1200 established fact - that a reader will be of a page when looking at its layout?
+It has survived not only five centuries, but also the leap into 17 electronic 2 typesetting, remaining 8 essentially -3 unchanged.
+It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+The point of using 6 Ipsum is that it has a more normal distribution of letters, as opposed to using ' Content here, content here ', making it look like readable English.
+It was popularised in the 5 with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Ipsum Lorem.
+2016-11-18 20:46:10 [main] INFO  by.alesnax.textparsing.writer.TextWriter  line:20 - Text was written to file text/ResultText_3.txt
+2016-11-18 20:46:41 [main] ERROR by.alesnax.textparsing.converter.Converter  line:155 - Incorrect expression, please check it
+2016-11-18 20:46:41 [main] ERROR by.alesnax.textparsing.reader.TextReader  line:30 - File not found, please check file destination or fileName! java.nio.file.NoSuchFileException: wrongFileName
+2016-11-18 20:46:41 [main] INFO  by.alesnax.textparsing.reader.TextReader  line:33 - File text/ExampleTextForTest.txt was read successfully!
+2016-11-18 20:46:41 [main] INFO  by.alesnax.textparsing.reader.TextReader  line:33 - File text/ExampleTextForTest.txt was read successfully!
+2016-11-18 20:46:41 [main] INFO  by.alesnax.textparsing.writer.TextWriter  line:20 - Text was written to file text/ExampleTextForWriteTest.txt
+2016-11-18 20:46:41 [main] INFO  by.alesnax.textparsing.reader.TextReader  line:33 - File text/ExampleTextForWriteTest.txt was read successfully!
+2016-11-18 20:46:41 [main] INFO  by.alesnax.textparsing.logic.TextReconstructor  line:37 - Parsed text:
+	It is a first string.
+	Mararis say tha nothig gooled are true.
+	Hello?
+2016-11-18 20:46:41 [main] INFO  by.alesnax.textparsing.logic.TextReconstructor  line:37 - Parsed text:
+It is a first string
+2016-11-18 20:46:41 [main] INFO  by.alesnax.textparsing.logic.TextReconstructor  line:37 - Parsed text:
+Marmaris says that nothing googled are true
+2016-11-18 20:46:41 [main] INFO  by.alesnax.textparsing.logic.TextReconstructor  line:37 - Parsed text:
+Hello
+2016-11-18 20:46:41 [main] INFO  by.alesnax.textparsing.logic.TextOperation  line:132 - Sorted sentences by lexemes amount: 
+Hello?
+It is a first string.
+Marmaris says that nothing googled are true.
+2016-11-18 20:46:41 [main] INFO  by.alesnax.textparsing.logic.TextOperation  line:84 - Sorted text:
+	a, are
+	first
+	googled
+	Hello
+	It, is
+	Marmaris
+	nothing
+	says, string
+	that, true
+2016-11-18 21:56:08 [main] INFO  by.alesnax.textparsing.reader.TextReader  line:33 - File text/ExampleText.txt was read successfully!
+2016-11-18 21:56:08 [main] INFO  by.alesnax.textparsing.logic.FileParser  line:21 - File text/ExampleText.txt was parsed successfully
+2016-11-18 21:56:08 [main] INFO  by.alesnax.textparsing.logic.TextReconstructor  line:37 - Parsed text:
+	It has survived not only five centuries, but also the leap into 17 electronic 2 typesetting, remaining 8 essentially -3 unchanged. It was popularised in the 5 with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Ipsum Lorem.
+	It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using 6 Ipsum is that it has a more normal distribution of letters, as opposed to using ' Content here, content here ', making it look like readable English.
+	It is a 1200 established fact - that a reader will be of a page when looking at its layout?
+	Hello...
+2016-11-18 21:56:08 [main] INFO  by.alesnax.textparsing.writer.TextWriter  line:20 - Text was written to file text/ResultText_0.txt
+2016-11-18 21:56:08 [main] INFO  by.alesnax.textparsing.reader.TextReader  line:33 - File text/ExampleText.txt was read successfully!
+2016-11-18 21:56:08 [main] INFO  by.alesnax.textparsing.logic.FileParser  line:21 - File text/ExampleText.txt was parsed successfully
+2016-11-18 21:56:08 [main] INFO  by.alesnax.textparsing.logic.TextReconstructor  line:37 - Parsed text:
+	It has survived not only five centuries, but also the leap into 17 elctronic 2 typeseing, remaining 8 essntially -3 unchanged. It was poularised in the 5 with the release of Letraset sheet containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker includng versions of Ipsum Lorem.
+	It is a long establishd fact tha a reade will be distracte by the readable content of a page when looking at its layout. The point of using 6 Ipsum is tha it has a more normal distribution of letters, as oppsed to using ' Content here, content here ', making it look like readable English.
+	It is a 1200 establishd fact - tha a reade will be of a page when looking at its layout?
+	Hello...
+2016-11-18 21:56:08 [main] INFO  by.alesnax.textparsing.writer.TextWriter  line:20 - Text was written to file text/ResultText_1.txt
+2016-11-18 21:56:08 [main] INFO  by.alesnax.textparsing.reader.TextReader  line:33 - File text/ExampleText.txt was read successfully!
+2016-11-18 21:56:08 [main] INFO  by.alesnax.textparsing.logic.FileParser  line:21 - File text/ExampleText.txt was parsed successfully
+2016-11-18 21:56:08 [main] INFO  by.alesnax.textparsing.logic.TextOperation  line:84 - Sorted text:
+	Aldus, a, a, a, a, a, a, a, also, and, as, at, at
+	be, be, but, by
+	Content, centuries, containing, content, content
+	desktop, distracted, distribution
+	English, electronic, essentially, established, established
+	fact, fact, five
+	Hello, has, has, here, here
+	Ipsum, Ipsum, Ipsum, It, It, It, It, in, including, into, is, is, is, it, it, its, its
+	Letraset, Lorem, Lorem, layout, layout, leap, letters, like, like, long, look, looking, looking
+	making, more, more
+	normal, not
+	of, of, of, of, of, of, only, opposed
+	PageMaker, page, page, passages, point, popularised, publishing
+	readable, readable, reader, reader, recently, release, remaining
+	sheets, software, survived
+	The, that, that, that, the, the, the, the, to, typesetting
+	unchanged, using, using
+	versions
+	was, when, when, will, will, with, with
+2016-11-18 21:56:08 [main] INFO  by.alesnax.textparsing.writer.TextWriter  line:20 - Text was written to file text/ResultText_2.txt
+2016-11-18 21:56:08 [main] INFO  by.alesnax.textparsing.reader.TextReader  line:33 - File text/ExampleText.txt was read successfully!
+2016-11-18 21:56:08 [main] INFO  by.alesnax.textparsing.logic.FileParser  line:21 - File text/ExampleText.txt was parsed successfully
+2016-11-18 21:56:08 [main] INFO  by.alesnax.textparsing.logic.TextReconstructor  line:37 - Parsed text:
+It has survived not only five centuries, but also the leap into 17 electronic 2 typesetting, remaining 8 essentially -3 unchanged
+2016-11-18 21:56:08 [main] INFO  by.alesnax.textparsing.logic.TextReconstructor  line:37 - Parsed text:
+It was popularised in the 5 with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Ipsum Lorem
+2016-11-18 21:56:08 [main] INFO  by.alesnax.textparsing.logic.TextReconstructor  line:37 - Parsed text:
+It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout
+2016-11-18 21:56:08 [main] INFO  by.alesnax.textparsing.logic.TextReconstructor  line:37 - Parsed text:
+The point of using 6 Ipsum is that it has a more normal distribution of letters, as opposed to using ' Content here, content here ', making it look like readable English
+2016-11-18 21:56:09 [main] INFO  by.alesnax.textparsing.logic.TextReconstructor  line:37 - Parsed text:
+It is a 1200 established fact - that a reader will be of a page when looking at its layout
+2016-11-18 21:56:09 [main] INFO  by.alesnax.textparsing.logic.TextReconstructor  line:37 - Parsed text:
+Hello
+2016-11-18 21:56:09 [main] INFO  by.alesnax.textparsing.logic.TextOperation  line:132 - Sorted sentences by lexemes amount: 
+Hello...
+It is a 1200 established fact - that a reader will be of a page when looking at its layout?
+It has survived not only five centuries, but also the leap into 17 electronic 2 typesetting, remaining 8 essentially -3 unchanged.
+It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+The point of using 6 Ipsum is that it has a more normal distribution of letters, as opposed to using ' Content here, content here ', making it look like readable English.
+It was popularised in the 5 with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Ipsum Lorem.
+2016-11-18 21:56:09 [main] INFO  by.alesnax.textparsing.writer.TextWriter  line:20 - Text was written to file text/ResultText_3.txt
+2016-11-18 21:57:29 [main] ERROR by.alesnax.textparsing.converter.Converter  line:155 - Incorrect expression, please check it
+2016-11-18 21:57:29 [main] ERROR by.alesnax.textparsing.reader.TextReader  line:30 - File not found, please check file destination or fileName! java.nio.file.NoSuchFileException: wrongFileName
+2016-11-18 21:57:29 [main] INFO  by.alesnax.textparsing.reader.TextReader  line:33 - File text/ExampleTextForTest.txt was read successfully!
+2016-11-18 21:57:29 [main] INFO  by.alesnax.textparsing.reader.TextReader  line:33 - File text/ExampleTextForTest.txt was read successfully!
+2016-11-18 21:57:29 [main] INFO  by.alesnax.textparsing.writer.TextWriter  line:20 - Text was written to file text/ExampleTextForWriteTest.txt
+2016-11-18 21:57:29 [main] INFO  by.alesnax.textparsing.reader.TextReader  line:33 - File text/ExampleTextForWriteTest.txt was read successfully!
+2016-11-18 21:57:29 [main] INFO  by.alesnax.textparsing.logic.TextReconstructor  line:37 - Parsed text:
+	It is a first string.
+	Mararis say tha nothig gooled are true.
+	Hello?
+2016-11-18 21:57:29 [main] INFO  by.alesnax.textparsing.logic.TextReconstructor  line:37 - Parsed text:
+It is a first string
+2016-11-18 21:57:29 [main] INFO  by.alesnax.textparsing.logic.TextReconstructor  line:37 - Parsed text:
+Marmaris says that nothing googled are true
+2016-11-18 21:57:29 [main] INFO  by.alesnax.textparsing.logic.TextReconstructor  line:37 - Parsed text:
+Hello
+2016-11-18 21:57:29 [main] INFO  by.alesnax.textparsing.logic.TextOperation  line:132 - Sorted sentences by lexemes amount: 
+Hello?
+It is a first string.
+Marmaris says that nothing googled are true.
+2016-11-18 21:57:29 [main] INFO  by.alesnax.textparsing.logic.TextOperation  line:84 - Sorted text:
+	a, are
+	first
+	googled
+	Hello
+	It, is
+	Marmaris
+	nothing
+	says, string
+	that, true
